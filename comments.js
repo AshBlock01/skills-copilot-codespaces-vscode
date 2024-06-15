@@ -1,13 +1,7 @@
 //create web server
-const express = require('express');
-const app = express();
-
-//create a web server
-app.get('/comments', (req, res) => {
-  res.send('This is a web server for comments');
-});
-
-//start the web server
-app.listen(3000, () => {
-  console.log('Server is running on http://localhost:3000');
-});
+//create a route for comments
+//create a route for comments/new
+//create a route for comments/create
+//create a route for comments/:id
+//create a route for comments/:id/edit
+//create a route for comments/:id/update
